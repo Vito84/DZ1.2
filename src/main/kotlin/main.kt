@@ -1,6 +1,7 @@
 package ru.netology
 
 fun main() {
-    val likes = 32
-    println(if (likes % 2 != 0) "Понравилось $likes человеку" else "понравилось $likes людям")
+    val likes = 4
+    println(if (likes % 10 == 1 && likes != 11 && likes % 100 != 11) "Понравилось $likes человеку"
+    else "понравилось $likes людям")
 }
